@@ -37,7 +37,7 @@ function render(variables = {}) {
     "Last name"}</h1>
           <h3>${variables.role || "Role"} <br> ${variables.city ||
     "City" + ", "} ${variables.country || "Country"}</h3>
-          <ul class="position-right" ${variables.socialMediaPosition}>
+          <ul class= ${variables.socialMediaPosition}>
             <li><a href="https://twitter.com/${
               variables.twitter
             }"><i class="fab fa-twitter"></i></a></li>
@@ -63,11 +63,9 @@ window.onload = function() {
     // if includeCover is true the algorithm should
     includeCover: true,
     // this is the url of the image that will used as background for the profile cover
-    background:
-      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLR1_lzXgk0ir84TEZTFa_2s0udqe77xQOAtoYYLl74ynogsu-",
+    background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
     // this is the url for the profile avatar
-    avatarURL:
-      "https://static-cdn.jtvnw.net/jtv_user_pictures/516641ff-9053-4014-97e7-b40310fb1d77-profile_image-150x150.png",
+    avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
